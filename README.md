@@ -1,1 +1,1 @@
-Solving practical ефылы of the school SkillFactory
+Solving practical tasks of the school SkillFactory
