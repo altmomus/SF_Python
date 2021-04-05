@@ -1,0 +1,26 @@
+from task_16_9_3_class import Clients
+
+dconsumers = [
+    {
+        "name": "Alex",
+        "surname": "Ivanov",
+        "debet": 100,
+    },
+    {
+        "name": "Ivan",
+        "surname": "Petrov",
+        "debet": 50,
+    }
+]
+
+lconsumers = []
+for consumer in dconsumers:
+    lconsumers.append(Clients(consumer.get('name'), consumer.get('surname'), consumer.get('debet')))
+
+i = 0
+for consumer in lconsumers:
+    i += 1
+    print(f"\nConsumer{i}:\t")
+    print(f"\tName: {consumer.name}")
+    print(f"\tSurname: {consumer.surname}")
+    print(f"\tDebet: {consumer.debet}")
